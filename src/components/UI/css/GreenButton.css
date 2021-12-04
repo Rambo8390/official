@@ -1,0 +1,14 @@
+.green-button {
+  background: linear-gradient(270.46deg, #66cb15 0.42%, #61c015 151.11%);
+  border: 1px solid rgba(102, 102, 102, 0.2);
+  box-shadow: 0px 8px 32px rgba(101, 201, 22, 0.47);
+  padding: 0.7vw 2vw;
+  border-radius: 999em;
+  text-decoration: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.9vw;
+  font-weight: 600;
+  max-width: max-content;
+  text-align: center;
+}

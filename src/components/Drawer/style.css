@@ -1,0 +1,47 @@
+.drawer {
+  width: 200px;
+  box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.06);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  position: fixed;
+}
+
+.drawer-options {
+  padding: 20px;
+  font-size: 12px;
+  font-family: Poppins;
+}
+.drawer-options p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.drawer-options p svg {
+  color: navy;
+}
+
+.drawer-options p span {
+  margin-left: 10px;
+  color: rgb(158, 154, 154);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.drawer-options p:hover {
+  background: linear-gradient(270.55deg, #131742 0.5%, #34375a 99.55%);
+  box-shadow: 0px 8px 32px rgba(19, 23, 66, 0.08);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.drawer-options p:hover svg {
+  color: #ffffff;
+}
+
+.drawer-options p:hover span {
+  color: #ffffff;
+}

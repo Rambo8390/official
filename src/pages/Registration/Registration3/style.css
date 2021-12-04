@@ -1,0 +1,146 @@
+.main-container-r3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vw;
+  overflow: hidden;
+}
+
+.info-box p {
+  margin: 5px;
+}
+
+.info-box {
+  position: absolute;
+  width: 30vw;
+  background-color: white;
+  z-index: 10;
+  top: 11vw;
+  left: 35vw;
+  box-shadow: 0px 32px 120px rgba(19, 23, 66, 0.08);
+  border-radius: 22px;
+  text-align: center;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-header {
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 124px #ffe3e1;
+  color: rgba(19, 23, 66);
+  display: flex;
+  flex-direction: column;
+  padding: 3vw auto;
+}
+
+
+.upload-btn {
+  background: linear-gradient(270.46deg, #e51615 0.42%, #f73d56 151.11%);
+  box-shadow: 0px 8px 32px rgba(235, 48, 34, 0.42);
+  border-radius: 25px;
+  width: 8vw;
+  padding: 0.3vw;
+  margin: 1vw;
+}
+
+.upload-btn p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7vw;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.back-btn {
+  background: linear-gradient(270.52deg, #131742 0.47%, #1d2362 120.33%);
+  border-radius: 25px;
+  width: 5vw;
+  padding: 0.3vw;
+  margin: 1vw;
+}
+
+.back-btn p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7vw;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.boy-girl-r3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boy-image-r3,
+.girl-image-r3 {
+  width: 24.5vw;
+}
+
+.boy-r3,
+.girl-r3 {
+  position: relative;
+}
+
+.text-r3{
+  height: 5vw;
+}
+
+.ld-r3{
+  width: 100%;
+}
+
+.bio, .likes-dislikes{
+  text-align: left;
+  width: 100%;
+}
+
+.bio, .likes-dislikes p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 1px;
+  color: #535353;
+  font-size: 0.7vw;
+}
+
+.submit-btns{
+  display: flex;
+  flex-direction: row;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: 1vw;
+  color: rgba(107, 107, 107, 1);
+}
+
+textarea::-moz-placeholder { 
+  font-size: 1vw;
+  color: rgba(107, 107, 107, 1); 
+  position: absolute;
+  top: 0;
+}
+
+textarea:-ms-input-placeholder {
+  font-size: 1vw;
+  color: rgba(107, 107, 107, 1);
+}
+
+textarea::placeholder {
+  font-family: Poppins;
+  font-size: 1vw;
+  color: rgba(107, 107, 107, 1); 
+}

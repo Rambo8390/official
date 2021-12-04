@@ -1,0 +1,98 @@
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  padding: 1vw;
+}
+
+.register-box {
+  width: 35vw;
+  background-color: white;
+  box-shadow: 0px 32px 120px rgba(19, 23, 66, 0.08);
+  border-radius: 2vw;
+  text-align: center;
+  padding: 2.6vw;
+  align-self: center;
+}
+
+.register-box-header {
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5vw;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 124px #ffe3e1;
+  color: rgb(224, 0, 0);
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .input-box{
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px auto;
+} */
+
+.gender-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1vw;
+}
+
+.sign-up-btn {
+  font-size: 1vw;
+  color: rgba(87, 87, 87, 1);
+}
+
+.main-sign-up-btn {
+  background: linear-gradient(
+    270.55deg,
+    rgba(13, 17, 60, 0.87) 0.5%,
+    rgba(19, 22, 62, 0.88) 99.55%
+  );
+  color: white;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin-top: 1.8vw;
+}
+
+::placeholder {
+  font-size: 1vw;
+  color: rgba(107, 107, 107, 1);
+}
+
+.other {
+  border: none;
+}
+
+.boy-girl-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boy-image-r img,
+.girl-image-r img {
+  position: absolute;
+  width: 30vw;
+  bottom: 0;
+}
+
+.boy-image-r img{
+left: -2vw;
+overflow-x: hidden;
+}
+
+.girl-image-r img{
+right: -2vw;  
+overflow-x: hidden;
+}

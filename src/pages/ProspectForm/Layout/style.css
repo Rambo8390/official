@@ -1,0 +1,45 @@
+.prospectform{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100vh;
+}
+
+.main-form-side{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20vw;
+}
+
+.top-bar {
+  width: 100%;
+}
+
+.top-bar .profile-icon{
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270.52deg, #131742 0.47%, #1d2362 120.33%);
+  box-shadow: 0px 8px 32px rgba(19, 23, 66, 0.22);
+  color: #ffffff;
+  font-size: 15px;
+  float: right;
+}
+
+.bronze-girl{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80vh;
+}
+
+.main-form{
+  display: flex;
+  flex-direction: row;
+}

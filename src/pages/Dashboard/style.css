@@ -1,0 +1,196 @@
+.dashboard1 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: hidden;
+}
+
+.drawer {
+  width: 200px;
+  box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.06);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  position: fixed;
+}
+
+.drawer-options {
+  padding: 20px;
+  font-size: 12px;
+  font-family: Poppins;
+}
+.drawer-options p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.drawer-options p svg {
+  color: navy;
+}
+
+.drawer-options p span {
+  margin-left: 10px;
+  color: rgb(158, 154, 154);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.drawer-options p:hover {
+  background: linear-gradient(270.55deg, #131742 0.5%, #34375a 99.55%);
+  box-shadow: 0px 8px 32px rgba(19, 23, 66, 0.08);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.drawer-options p:hover svg {
+  color: #ffffff;
+}
+
+.drawer-options p:hover span {
+  color: #ffffff;
+}
+
+.main-dash {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: linear-gradient(180deg, #f8f8f8 0%, #eeeeee 100%);
+  width: 100%;
+  overflow-x: hidden;
+  margin-left: 200px;
+  padding-top: 0;
+}
+
+.small-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.op1,
+.op2,
+.op3 {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.op1,
+.op2 {
+  background: linear-gradient(270.52deg, #131742 0.47%, #1d2362 120.33%);
+  box-shadow: 0px 8px 32px rgba(19, 23, 66, 0.22);
+}
+
+.op3 {
+  background: linear-gradient(270.46deg, #e51615 0.42%, #fe425c 151.11%);
+  box-shadow: 0px 8px 32px rgba(235, 48, 34, 0.42);
+}
+
+.op1 svg,
+.op2 svg,
+.op3 svg {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.header-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  box-shadow: 0px 14px 52px rgba(19, 23, 66, 0.15);
+  border-radius: 13px;
+  width: 280px;
+  padding: 4px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+.card .card-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+}
+
+.card .card-data .card-title {
+  font-size: 8px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: rgb(158, 154, 154);
+}
+
+.card .card-data .card-desc span {
+  font-size: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: black;
+}
+
+.contests-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contests-header p {
+  color: rgb(82, 80, 80);
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.contests-header p span {
+  color: red;
+}
+
+.contests-header-vertical {
+  background-color: #c5c0c0;
+  height: 25px;
+  width: 5.5px;
+}
+
+.tabs-buttons,
+.contest-tabs,
+.filter-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs-buttons {
+  justify-content: space-between;
+}
+
+.contest-tabs .active {
+  background: #ffffff;
+  border-radius: 12px 12px 0px 0px;
+  color: #131742;
+}
+
+.contest-tabs p{
+  color: rgb(79, 81, 110);
+  font-weight: bold;
+  font-size: 11px;
+  padding: 13px;
+  font-size: 11px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
