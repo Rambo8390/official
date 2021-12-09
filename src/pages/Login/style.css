@@ -1,0 +1,190 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.boy-girl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boy-image,
+.girl-image {
+  width: 28vw;
+}
+
+.boy,
+.girl {
+  position: relative;
+}
+
+.circle-pic {
+  position: absolute;
+  border-radius: 100%;
+}
+
+.circular-images {
+  position: absolute;
+  top: 0;
+}
+
+.c1 {
+  width: 7.3vw;
+  top: 30vw;
+  left: 15.5vw;
+}
+.c2 {
+  width: 4vw;
+  top: 23vw;
+  left: 15vw;
+}
+.c3 {
+  width: 5.5vw;
+  top: 21.5vw;
+  left: 3.5vw;
+}
+.c4 {
+  width: 5vw;
+  top: 30vw;
+  left: 1vw;
+}
+
+.girl-card {
+  width: 20vw;
+  height: 18vw;
+  position: absolute;
+  background: linear-gradient(
+    115.09deg,
+    rgba(255, 255, 255, 0.48) 4.35%,
+    rgba(255, 255, 255, 0.46) 98.4%
+  );
+  box-shadow: 0px 33px 100px rgba(8, 11, 37, 0.05);
+  backdrop-filter: blur(25px);
+  border-radius: 20px;
+  bottom: 70px;
+  right: 60px;
+}
+
+.login-box {
+  position: absolute;
+  width: 30vw;
+  background-color: white;
+  z-index: 10;
+  top: 4vw;
+  left: 31vw;
+  box-shadow: 0px 32px 120px rgba(19, 23, 66, 0.08);
+  border-radius: 22px;
+  text-align: center;
+  padding: 2vw;
+}
+
+.login-header {
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5vw;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 124px #ffe3e1;
+  color: rgb(224, 0, 0);
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  border-radius: 1vw;
+  display: block;
+  width: 100%;
+  padding: 1vw;
+  margin: 1vw auto;
+}
+
+.sign-in-btn {
+  font-size: 1vw;
+  color: rgba(87, 87, 87, 1);
+}
+
+.main-sign-in-btn {
+  background: linear-gradient(
+    270.55deg,
+    rgba(13, 17, 60, 0.87) 0.5%,
+    rgba(19, 22, 62, 0.88) 99.55%
+  );
+  color: white;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin-top: 1.8vw;
+}
+
+.password-processes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1vw;
+  color: grey;
+  font-size: 1vw;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: grey;
+}
+
+.already {
+  font-size: 0.9vw;
+}
+
+.already a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2d3055;
+}
+
+::placeholder {
+  font-size: 1vw;
+  color: rgba(107, 107, 107, 1);
+}
+
+/* @media screen and (max-width: 700px) {
+  .container1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .main-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .login-box {
+    position: initial;
+    transform: translateX(25%);
+    top: initial;
+    left: initial;
+    width: 350px;
+  }
+
+  .boy-image img,
+  .girl-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login-box {
+    transform: translateX(10%);
+  }
+} */

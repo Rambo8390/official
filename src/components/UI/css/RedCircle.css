@@ -1,0 +1,44 @@
+.red-circle{
+  position: absolute;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  background: linear-gradient(176.12deg, #E51615 -9.13%, #FE425C 122%);
+  box-shadow: 0px 0px 124px #181C4A;
+  border: 0.8vw solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-circle p{
+  margin: 0;
+}
+
+.red-circle p span{
+  font-family: Bebas Neue;
+  font-style: normal;
+}
+
+.red-circle #l1{
+  font-size: 2vw;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.red-circle #l2{
+  font-size: 4vw;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.red-circle #l3{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  letter-spacing: 0.1vw;
+  transform: translateY(-73%);
+}

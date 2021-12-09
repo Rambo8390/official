@@ -1,0 +1,122 @@
+.main-container-r2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vw;
+  overflow: hidden;
+}
+
+.upload-box p {
+  margin: 5px;
+}
+
+.upload-box {
+  position: absolute;
+  width: 25vw;
+  background-color: white;
+  z-index: 10;
+  top: 11vw;
+left: 35vw;
+  box-shadow: 0px 32px 120px rgba(19, 23, 66, 0.08);
+  border-radius: 22px;
+  text-align: center;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-header {
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 124px #ffe3e1;
+  color: rgba(19, 23, 66);
+  display: flex;
+  flex-direction: column;
+  padding: 3vw auto;
+}
+
+.skip {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 1px;
+  color: #d3d2dd;
+  font-size: 0.7vw;
+  align-self: flex-end;
+}
+
+.uploaded-image {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 10vw;
+  background-color: cadetblue;
+  align-self: center;
+}
+
+.uploaded-image-name {
+  font-size: 0.8vw;
+  color: #d3d2dd;
+}
+
+.upload-btn {
+  background: linear-gradient(270.46deg, #e51615 0.42%, #f73d56 151.11%);
+  box-shadow: 0px 8px 32px rgba(235, 48, 34, 0.42);
+  border-radius: 25px;
+  width: 8vw;
+  padding: 0.3vw;
+  margin: 1vw;
+}
+
+.upload-btn p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7vw;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.back-btn {
+  background: linear-gradient(270.52deg, #131742 0.47%, #1d2362 120.33%);
+  border-radius: 25px;
+  width: 5vw;
+  padding: 0.3vw;
+  margin: 1vw;
+}
+
+.back-btn p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7vw;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.boy-girl-r2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boy-image-r2,
+.girl-image-r2 {
+  width: 29.5vw;
+}
+
+.boy-r2,
+.girl-r2 {
+  position: relative;
+}
+
+.boy-image-r2{
+  transform: translateY(4vw);
+}

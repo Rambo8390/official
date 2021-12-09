@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.navbar img{
+  width: 12vw;
+}
+
+.navbar a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar p {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7vw;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #131742;
+}
+
+.navbar p:hover {
+  color: #e51615;
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 10vw;
+  height: 3vw;
+  background: linear-gradient(
+    270.55deg,
+    rgba(13, 17, 60, 0.87) 0.5%,
+    rgba(19, 22, 62, 0.88) 99.55%
+  );
+  box-shadow: 0px 33px 100px rgba(22, 26, 68, 0.13);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  text-align: center;
+  transform: translateY(-30%);
+}
+
+.login-btn p{
+  color: white;
+  font-size: 1.7vw;
+  transform: translateY(20%);
+}
+
+.login-btn p:hover{
+  text-decoration: none;
+  color: white;
+}
