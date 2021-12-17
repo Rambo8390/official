@@ -11,7 +11,7 @@ import ProspectForm2 from "./pages/ProspectForm/ProspectForm2";
 import About from "./pages/About"
 import PoolSelector from "./pages/PoolSelector";
 import Profile from "./pages/Profileown";
-
+import Session from "./pages/SESSIONS"
 const theme = createMuiTheme({
   overrides: {
     MuiTypography: {
@@ -41,6 +41,7 @@ function App() {
               <Route exact path="/about" element={<About />} />
               <Route exact path="/poolselector" element={<PoolSelector />} />
               <Route exact path="/profileown" element={<Profile />} />
+              <Route exact path="/session" element={<Session />} />
             </Routes>
       </BrowserRouter>
     </ThemeProvider>
