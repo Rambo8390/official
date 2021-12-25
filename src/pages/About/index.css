@@ -12,8 +12,8 @@
 
 .options{
     height: 9vh;
-    width: 7vw;
-    font-family: 'Bebas Neue', cursive;
+    width: 6vw;
+    /* border: 2px solid black; */
    
 }
 
@@ -23,6 +23,7 @@
     width: 18vh;
     left:1.5vw;
     padding-top: 2vh;
+    /* border: 2px solid black; */
     
 }
 
@@ -32,12 +33,15 @@
 .boxhead{
 
     font-size: 1.8vh;
-    color: white;
+    color: gray;
+    font-family: 'Poppins';
+    margin-top: -0.5vh;
 
 }
 .boxcontent{
-    font-size: 2.6vh;
+    font-size: 4vh;
     color: white;
+    font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -65,10 +69,10 @@
    
     height:3.5vh;
     width: 12vw;
-    font-size: 2vh;
+    font-size: 3.5vh;
 }
 .content1-head2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 5vh;
@@ -93,12 +97,11 @@
     border-radius: 25px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+    margin-top: 2.5vh;
 }
 
 .red-button p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 1.2vh;
@@ -106,6 +109,7 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 1vh;
     
 
 }

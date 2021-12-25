@@ -8,27 +8,35 @@ import { display } from '@mui/system';
 
 const About = () => {
 
-    let arr = [{Key:"BORN",value:"5 DEC 1990"},{Key:"BORN",value:"5 DEC 1990"},{Key:"BORN",value:"5 DEC 1990"},{Key:"BORN",value:"5 DEC 1990"},{Key:"BORN",value:"5 DEC 1990"},{Key:"BORN",value:"5 DEC 1990"}]
+    
+    let arr = [{Key:"BORN",value:"5 DEC"},
+               {Key:"COUNTRY",value:"USA"},
+               {Key:"AGE",value:"29 YR"},
+               {Key:"STATE",value:"FLORIDA"},
+               {Key:"RELATIONP",value:"SINGLE"},
+               {Key:"CITY",value:"SAN DIEGO"}]
     return(
 
         <div className="About">
             <Drawer />
             <div className="After-Drawer">
 
-                <BlueBox style={{height :"30vh",width:"15vw",display:"flex",justifyContent:"space-between",flexWrap:"wrap",top:"40vh"}}>
+            {/* <BlueBox style={{height :"35vh",width:"15vw",display:"flex",justifyContent:"space-between",flexWrap:"wrap",top:"40vh",left:"16vw"}}> */}
+
+                <BlueBox style={{height :"36vh",width:"17vw",display:"flex",justifyContent:"space-between",flexWrap:"wrap",top:"40vh",left:"16vw"}}>
                 {
                         arr.map((obj) =>{
 
                            return <div className="options">
-                                <div className="box-icon">
-                                    <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
-                                </div>
-                                <div className="boxhead" style={{color:"white"}}>
-                                    {obj.Key}
-                                </div>
-                                <div className="boxcontent" style={{color:"white"}}>
-                                    {obj.value}
-                                </div>
+                                        <div className="box-icon">
+                                            <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
+                                        </div>
+                                        <div className="boxhead" >
+                                            {obj.Key}
+                                        </div>
+                                        <div className="boxcontent" style={{color:"white"}}>
+                                            {obj.value}
+                                        </div>
                             </div>
 
                         })
@@ -43,7 +51,7 @@ const About = () => {
                 <div className="content1">
                         
                         <div className="content1-head1">
-                                THANK YOU___
+                                THANK YOU_____
                         </div>
 
                         <div className="content1-head2">
@@ -78,91 +86,31 @@ const About = () => {
             {/* <div style={{backgroundColor:"red"}}>
                 
             </div> */}
-            <GlassCard style={{top:"75vh" ,height:"15vh",width:"44vw",left:"20vw",display:"flex"}}>
+            <GlassCard style={{top:"80vh" ,height:"15vh",width:"44vw",left:"25vw",display:"flex"}}>
 
-            <div className="options">
+            
 
-                <div className="box-icon">
-                        <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
-                    </div>
-                    <div className="boxhead" style={{color:"black",fontWeight:"600"}}>
-                        BORN
-                    </div>
-                    <div className="boxcontent" style={{color:"darkBlue" ,fontWeight:"bold"}}>
-                        5 DEC 
-                    </div>
+                {
+                    arr.map((obj)=>{
 
-            </div>
+                        return <div className="options">
 
-            <div className="options">
+                            <div className="box-icon">
+                                    <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
+                                </div>
+                                <div className="boxhead" style={{color:"gray",fontWeight:"600"}}>
+                                    {obj.Key}
+                                </div>
+                                <div className="boxcontent" style={{color:'#131742',fontWeight:"bold"}}>
+                                    {obj.value}
+                                </div>
+            
+                        </div>
 
-                <div className="box-icon">
-                        <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
-                    </div>
-                    <div className="boxhead" style={{color:"black",fontWeight:"600"}}>
-                        BORN
-                    </div>
-                    <div className="boxcontent" style={{color:"darkBlue" ,fontWeight:"bold"}}>
-                        5 DEC 
-                    </div>
+                    })
+                }
 
-            </div>
-
-            <div className="options">
-
-                <div className="box-icon">
-                        <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
-                    </div>
-                    <div className="boxhead" style={{color:"black",fontWeight:"600"}}>
-                        BORN
-                    </div>
-                    <div className="boxcontent" style={{color:"darkBlue" ,fontWeight:"bold"}}>
-                        5 DEC 
-                    </div>
-
-            </div>
-
-            <div className="options">
-
-                <div className="box-icon">
-                        <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
-                    </div>
-                    <div className="boxhead" style={{color:"black",fontWeight:"600"}}>
-                        BORN
-                    </div>
-                    <div className="boxcontent" style={{color:"darkBlue" ,fontWeight:"bold"}}>
-                        5 DEC 
-                    </div>
-
-            </div>
-
-            <div className="options">
-
-                <div className="box-icon">
-                        <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
-                    </div>
-                    <div className="boxhead" style={{color:"black",fontWeight:"600"}}>
-                        BORN
-                    </div>
-                    <div className="boxcontent" style={{color:"darkBlue" ,fontWeight:"bold"}}>
-                        5 DEC 
-                    </div>
-
-            </div>
-
-            <div className="options">
-
-                <div className="box-icon">
-                        <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
-                    </div>
-                    <div className="boxhead" style={{color:"black",fontWeight:"600"}}>
-                        BORN
-                    </div>
-                    <div className="boxcontent" style={{color:"darkBlue" ,fontWeight:"bold"}}>
-                        5 DEC 
-                    </div>
-
-            </div>
+           
 
             
             </GlassCard>
