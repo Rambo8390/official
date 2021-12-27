@@ -150,10 +150,10 @@ export default function pool_selector() {
 
             <div className='PoolSelector-box'>
                 <div className='PoolSelector-box-loader'>
-                    <Pie percentage={75} colour="#66CB15" />
+                    <Pie percentage={60} colour="#66CB15" />
                 </div>
                 <div className='PoolSelector-box-loader-content'>
-                    <p style={{marginTop:"0.7vw",fontFamily:"Bebas Neue",fontSize:"1.3vw",color:"rgb(20, 20, 67)"}}>75%</p>
+                    <p style={{marginTop:"0.7vw",fontFamily:"Bebas Neue",fontSize:"1.3vw",color:"rgb(20, 20, 67)"}}>60%</p>
                     <p style={{marginTop:"-1.7vw",fontFamily:"Poppins",fontSize:"0.7vw",fontWeight:"600",color:"rgb(20, 20, 67)"}}>FILLED</p>
                 </div>
                 <div className='PoolSelector-box-btn'>

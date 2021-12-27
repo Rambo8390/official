@@ -14,6 +14,7 @@ import Profile from "./pages/Profileown";
 import Profile1 from "./pages/Profileown1";
 import Session from "./pages/SESSIONS";
 import ParticipantProfile from "./pages/ParticipantProfile";
+import GameEnded from "./pages/GameEnded"
 const theme = createMuiTheme({
   overrides: {
     MuiTypography: {
@@ -46,6 +47,7 @@ function App() {
               <Route exact path="/profileown1" element={<Profile1 />} />
               <Route exact path="/session" element={<Session />} />
               <Route exact path="/participantprofile" element={<ParticipantProfile />} />
+              <Route exact path="/gameend" element={<GameEnded />} />
             </Routes>
       </BrowserRouter>
     </ThemeProvider>

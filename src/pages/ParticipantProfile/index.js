@@ -24,6 +24,8 @@ import FestivalIcon from '@mui/icons-material/Festival';
 import BrokenImageIcon from '@mui/icons-material/BrokenImage';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
+
+
 import './style.css'
 import { width } from '@mui/system';
 export default function ParticipantProfile() {
@@ -41,7 +43,7 @@ export default function ParticipantProfile() {
             <Drawer/>
             <div className="PP-After-Drawer">
 
-            <BlueBox style={{color:"white",position:"absolute",top:"4vh" ,height:"4vh",width:"7vw",left:"19vw",display:"flex",justifyContent:"center",alignItems:"center",padding:"0"}}>
+                <BlueBox style={{color:"white",position:"absolute",top:"4vh" ,height:"4vh",width:"7vw",left:"19vw",display:"flex",justifyContent:"center",alignItems:"center",padding:"0"}}>
                     back
                 </BlueBox>
 
