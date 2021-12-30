@@ -42,19 +42,19 @@ export default function ResizableDrawer(props) {
                             
                                 <img  className="photo" src={img} alt="photo"/>
                                
-                                <div style={{position:"absolute",top:"36vh"}}>
+                                <div style={{position:"absolute",top:"17.8vw"}}>
                                     <RedRoundIcon style={{height:"2.5vw",width:"2.5vw"}}>
-                                        <img src ={logo}  alt="Selector" style={{height:"1.7vh"}}/>
+                                        <img src ={logo}  alt="Selector" style={{height:"1vw"}}/>
                                     </RedRoundIcon>
                                 </div>
 
-                                <div style={{position:"absolute",top:"0vh",left:"10vw",height:"4vh"}}>
+                                <div style={{position:"absolute",top:"0vh",left:"10vw",height:"2vw"}}>
                                     <BlueRoundIcon style={{height:"4vw",width:"4vw",fontFamily:"Bebas Neue"}}>
                                        75%
-                                       <p style={{fontSize:"1.5vh",position:"absolute",top:"7vh",fontFamily:"Poppins"}}>GAME</p>
+                                       <p style={{fontSize:"0.7vw",position:"absolute",top:"3.3vw",fontFamily:"Poppins"}}>GAME</p>
                                     </BlueRoundIcon>
                                     
-                                    <div style={{position:"absolute",top:"-8.2vh",left:"-4vw",height:"4vh"}}>
+                                    <div style={{position:"absolute",top:"-4vw",left:"-4vw"}}>
                                         <Pie percentage={75} colour="gray" />
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ export default function ResizableDrawer(props) {
                                 
 
                             <div >
-                                <a className="view-Profile" href="/www.google.com">VIEW HER PROFILE <span> &nbsp;&nbsp;&nbsp;> </span> </a>
+                                <a className="view-Profile" href="/www.google.com">VIEW HER PROFILE <span> &nbsp;&nbsp; &gt; </span> </a>
                             </div>
                             <div className="button">
                                 <div className="bigboard">
